@@ -281,7 +281,222 @@ h3 a, h3 a:visited, h3 a:hover {
 	}
 }
 
+@media (max-width: 1140px){
+	.main-header {
+		background-color: #0f4a77 		!important;
+	}
+}
 
+.more-options {
+	display: none !important;
+}
+
+@media only screen and (max-width: 767px) {
+	.main-menu .navbar-header .navbar-toggle {
+		border: 1px solid #0f4a77;
+		background-color: #0f4a77;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.main-menu .navbar-collapse > .navigation {
+		background: #0f4a77 !important;
+		border: none;
+	}
+	.main-menu .navbar-collapse > .navigation > li > a {
+		background: #0f4a77 !important;
+		border: none;
+	}
+	.main-menu .navbar-collapse > .navigation > li {
+		background: #0f4a77 !important;
+		border: none;
+	}
+}
+
+
+.main-menu .navigation a[title~="Purchase"], a[title~="Purchase"]:visited, a[title~="Purchase"]:hover {
+	background: #ff523f;
+	border: 1px solid #ff523f;
+	border-radius: 3px;
+	padding: 10px 20px;
+	text-transform: none !important;
+	color: #fff !important;
+	margin-top: 10px;
+}
+
+.main-menu .navigation a i {
+	font-size: 40px !important;
+	display: block;
+	margin-top: -10px;
+}
+
+.inner-container .main-menu .navigation a i:hover {
+	color: #f8cf00 !important;
+}
+
+.main-menu .navigation a  .fa-facebook {
+	margin-right: 10px !important;
+}
+
+.navigation img {
+	height: 50px;
+	display: block;
+	margin-top: -14px;
+}
+
+@media (min-width: 768px) and (max-width: 1443px) {
+	.main-menu .navigation {
+	margin-top: -60px;
+}
+}
+
+@media (min-width: 768px) {
+	.main-menu .navigation a[title~="Purchase"], a[title~="Purchase"]:visited, a[title~="Purchase"]:hover {
+	background: #ff523f;
+	border: 1px solid #ff523f;
+	border-radius: 3px;
+	padding: 10px 20px;
+	text-transform: none !important;
+	color: #fff !important;
+	margin-top: -80px;
+}
+	.main-menu .navigation a i {
+	font-size: 40px !important;
+	display: block;
+	margin-top: -100px;
+}
+
+.inner-container .main-menu .navigation a i:hover {
+	color: #f8cf00 !important;
+}
+
+.main-menu .navigation a  .fa-facebook {
+	margin-right: 10px !important;
+}
+
+.navigation img {
+	height: 50px;
+	display: block;
+	margin-top: -105px;
+}
+	}
+
+
+
+
+@media (max-width: 1443px){
+	a[title~="FAQ"] {
+		margin-right: 200px;
+	}
+}
+
+@media (max-width: 1388px){
+	a[title~="FAQ"] {
+		margin-right: 150px;
+	}
+}
+
+@media (max-width: 1338px){
+	a[title~="FAQ"] {
+		margin-right: 100px;
+	}
+}
+
+@media (max-width: 1288px){
+	a[title~="FAQ"] {
+		margin-right: 50px;
+	}
+}
+
+@media (max-width: 1238px){
+	a[title~="FAQ"] {
+		margin-right: 0px;
+	}
+}
+
+@media (max-width: 1188px){
+	.main-menu .navigation li a {
+		font-size: 12px !important;
+	}
+	a[title~="FAQ"] {
+		margin-right: 100px;
+	}
+	.main-menu .navigation a[title~="Purchase"] {
+		padding: 5px 10px;
+	}
+}
+
+
+@media (max-width: 1140px){
+	a[title~="FAQ"] {
+		margin-right: 170px;
+	}
+}
+
+@media (max-width: 1095px){
+	a[title~="FAQ"] {
+		margin-right: 120px;
+	}
+}
+
+@media (max-width: 1045px){
+	a[title~="FAQ"] {
+		margin-right: 70px;
+	}
+}
+
+@media (max-width: 1023px){
+	.main-menu .navigation {
+		margin-top: -10px;
+		margin-left: 15px
+	}
+	a[title~="FAQ"] {
+		margin-right: 30px;
+	}
+}
+
+@media (max-width: 957px){
+	a[title~="FAQ"] {
+		margin-right: 0px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 927px){
+	.main-menu .navigation a img {
+		width: 40px;
+		height: auto;
+	}
+	.main-menu .navigation a .fa-instagram {
+		font-size: 30px !important;
+		margin-left: -20px
+	}
+	.main-menu .navigation a .fa-facebook {
+		font-size: 30px !important;
+		margin-left: -15px
+	}
+}
+
+@media (max-width: 767px) {
+	.main-menu .navigation a img {
+		width: 40px;
+		height: auto;
+		margin-top: 0px;
+	}
+	.main-menu .navigation a .fa-instagram {
+		font-size: 30px !important;
+		margin-top: 0px;
+/* 		margin-left: -20px */
+	}
+	.main-menu .navigation a .fa-facebook {
+		font-size: 30px !important;
+		margin-top: 0px;
+/* 		margin-left: -15px */
+	}
+	.main-menu .navigation li a[title~="Purchase"] {
+		color: #f8cf00 !important;
+		text-transform: uppercase !important;
+	}
+}
 
 
 

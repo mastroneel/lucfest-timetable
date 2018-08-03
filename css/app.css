@@ -149,6 +149,55 @@ label:hover {
   padding: 10px 20px;
 }
 
+.add a, .add a:visited {
+  background: #fff;
+  color: #0f4a77;
+  text-decoration: none;
+  float: right;
+  padding: 8px;
+  border-radius: 3px;
+  margin-top: -40px;
+  transition: 0.2s;
+}
+
+.add a:hover {
+  color: #fff;
+  background: #ff523f;
+  transition: 0.2s;
+}
+
+@media (max-width: 460px) {
+  .add a, .add a:hover, .add a:visited {
+    float: none;
+  }
+  .small-schedule ul li {
+    padding-bottom: 20px;
+  }
+  .value {
+    margin-bottom: 15px;
+  }
+}
+
+/* .small-schedule ul li .event-overlay {
+  opacity: 0;
+  background: #fff;
+  text-align: center;
+  width: 200px;
+  height: 100%;
+  margin-bottom: -40px;
+  padding: 20px;
+  font-size: 12px;
+  transition: 0.3s;
+}
+
+.small-schedule ul li:hover .event-overlay {
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.small-schedule ul li:hover .band, .small-schedule ul li:hover .value {
+  opacity: 0;
+} */
 
 /* hide small schedule for large screens and hide big schedule for small screens */
 
@@ -354,7 +403,7 @@ tr {
     width: 18%;
 }
 .tt_timetable td {
-    vertical-align: top;
+    /* vertical-align: middle !important; */
     height: 26px;
     border: none;
     padding: 0;
@@ -372,6 +421,68 @@ tr {
     border: none !important;
 }
 
+/* .tt_timetable {
+  display: table !important;
+  vertical-align: middle !important;
+}
+
+.event {
+  display: table-cell;
+  vertical-align: middle !important;
+} */
+
+
+/* center table data + add to my timetable overlay text */
+
+/* shows that last a half hour */
+
+.event[rowspan="2"] .td-inner {
+  margin-top: -35px;
+}
+
+.event[rowspan="2"] .event-overlay {
+  margin-top: 10px;
+}
+
+/* shows that last forty five minutes */
+
+.event[rowspan="3"] .td-inner {
+  margin-top: -35px;
+}
+
+.event[rowspan="3"] .event-overlay {
+  margin-top: 30px;
+}
+
+/* shows that last one hour */
+
+.event[rowspan="4"] .td-inner {
+  margin-top: -30px;
+}
+
+.event[rowspan="4"] .event-overlay {
+  margin-top: 40px;
+}
+
+/* shows that last an hour and a half */
+
+.event[rowspan="6"] .td-inner {
+  margin-top: -30px;
+}
+
+.event[rowspan="6"] .event-overlay {
+  margin-top: 70px;
+}
+
+/* shows that last two hours */
+
+.event[rowspan="8"] .td-inner {
+  margin-top: -30px;
+}
+
+.event[rowspan="8"] .event-overlay {
+  margin-top: 100px;
+}
 
 
 /* Mine */
@@ -405,6 +516,10 @@ table {
   transition: 0.2s;
 }
 
+.event:hover .td-inner {
+  opacity: 0;
+}
+
 .event:hover .event-overlay {
   opacity: 1;
   transition: 0.2s;
@@ -414,8 +529,26 @@ table {
   visibility: hidden;
 }
 
+@media (max-width: 910px) {
+  label {
+    font-size: 12px;
+  }
+  .right-buttons a, .right-buttons a:hover, .right-buttons a:visited {
+    font-size: 12px;
+  }
+}
 
+@media (max-width: 736px) {
+  .right-buttons {
+    float: none;
+  }
+}
 
+@media (max-width: 355px) {
+  .right-buttons a {
+    padding: 10px;
+  }
+}
 
 
 
