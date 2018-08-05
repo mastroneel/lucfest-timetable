@@ -58,32 +58,33 @@ a, li {
 	background: #f8cf00;
 }
 
-.logo img {
+/* .logo img {
 	max-width: 250px !important;
 	width: 90%;
-}
+} */
 
 .page-title {
-	min-height: 540px;
+	min-height: 500px;
+	max-height: 500px;
 }
 
-.main-header .header-upper .inner-container {
+/* .main-header .header-upper .inner-container {
 	border: none;
-}
+} */
 
-.main-header .header-upper .inner-container:before {
+/* .main-header .header-upper .inner-container:before {
 	background: none;
-}
+} */
 
-.navigation {
+/* .navigation {
 	margin-right: 20px !important;
-}
+} */
 
 .logo {
 	margin-left: 20px;
 }
 
-.navigation li a {
+/* .navigation li a {
 	color: #f8cf00 !important;
 	font-size: 15px !important;
 	transition: 0.2s;
@@ -92,16 +93,16 @@ a, li {
 .navigation li a:visited {
 	color: #f8cf00 !important;
 	transition: 0.2s;
-}
+} */
 
-.page-title .auto-container .inner-box {
+/* .page-title .auto-container .inner-box {
 	text-align: center;
 	margin: -90px auto 0 auto;
 	height: 200px;
 	width: 600px;
-}
+} */
 
-.page-title .auto-container .inner-box ::before {
+/* .page-title .auto-container .inner-box ::before {
 	content: '';
 	background: url('http://localhost:8080/lucfest/wp-content/uploads/2018/07/logo-2-1024x328.png');
 	height: 200px;
@@ -109,9 +110,23 @@ a, li {
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
+	margin-top: 100px;
+} */
+/*
+@media (max-width: 717px) {
+	.page-title .auto-container .inner-box ::before {
+		width: 360px;
+		margin: 40px auto 0 auto;
+	}
 }
 
-.bread-crumb::after {
+@media (max-width: 400px) {
+	.page-title .auto-container .inner-box ::before {
+		width: 290px;
+	}
+} */
+
+/* .bread-crumb::after {
 	content: 'November 10th -   12th 2018';
 	text-align: center;
 	font-size: 2em;
@@ -120,19 +135,19 @@ a, li {
   display: inline;
   left: 50%;
   transform: translate(-50%, -5px);
-}
+} */
 
 
-.navigation li a:hover {
+/* .navigation li a:hover {
 	color: #ff523f !important;
 	transition: 0.2s;
-}
+} */
 
 .bread-crumb li {
 	display: none !important;
 }
 
-h3 a, h3 a:visited, h3 a:hover {
+/* h3 a, h3 a:visited, h3 a:hover {
 	background: #ff523f !important;
 	border: 1px solid #ff523f !important;
 	border-radius: 5px;
@@ -140,8 +155,8 @@ h3 a, h3 a:visited, h3 a:hover {
 	padding: 15px 30px;
 	width: 200px;
 	display: block;
-	margin: -200px auto 100px auto !important;
-}
+	margin: -250px auto 150px auto !important;
+} */
 
 .sec {
 	min-height: 300px;
@@ -156,7 +171,7 @@ h3 a, h3 a:visited, h3 a:hover {
 	display: none;
 }
 
-.sticky-header {
+/* .sticky-header {
 	background: #006db0;
 	border: none;
 }
@@ -164,13 +179,14 @@ h3 a, h3 a:visited, h3 a:hover {
 .sticky-header .navigation .menu-item a:hover {
 	background: #006db0 !important;
 	color: #ff523f !important;
-}
+} */
 
 .footer {
   background: #006db0;
   color: #fff;
   font-family: 'Monda', sans-serif;
   padding: 5vw;
+	padding-bottom: 60px;
 }
 
 .footer .col-xs-12 .col-md-6 {
@@ -179,8 +195,29 @@ h3 a, h3 a:visited, h3 a:hover {
 }
 
 .footer img {
-  max-width: 90px !important;
-	margin: 0 8px
+  max-width: 80px !important;
+	margin: 0px 5px;
+}
+
+@media (min-width: 993px) and (max-width: 1582px) {
+	.footer img {
+  max-width: 50px !important;
+	margin: 0px 5px;
+}
+}
+
+@media (max-width: 607px) {
+	.footer img {
+  max-width: 50px !important;
+	margin: 0px 5px;
+}
+}
+
+@media (max-width: 507px) {
+	.footer img {
+  max-width: 40px !important;
+	margin: 0px 5px;
+}
 }
 
 .footer-stripe {
@@ -281,23 +318,23 @@ h3 a, h3 a:visited, h3 a:hover {
 	}
 }
 
-@media (max-width: 1140px){
+/* @media (max-width: 1140px){
 	.main-header {
 		background-color: #0f4a77 		!important;
 	}
-}
+} */
 
 .more-options {
 	display: none !important;
 }
 
-@media only screen and (max-width: 767px) {
+/* @media only screen and (max-width: 767px) {
 	.main-menu .navbar-header .navbar-toggle {
 		border: 1px solid #0f4a77;
 		background-color: #0f4a77;
 	}
-}
-
+} */
+/*
 @media only screen and (max-width: 767px) {
 	.main-menu .navbar-collapse > .navigation {
 		background: #0f4a77 !important;
@@ -311,10 +348,10 @@ h3 a, h3 a:visited, h3 a:hover {
 		background: #0f4a77 !important;
 		border: none;
 	}
-}
+} */
 
 
-.main-menu .navigation a[title~="Purchase"], a[title~="Purchase"]:visited, a[title~="Purchase"]:hover {
+/* .main-menu .navigation a[title~="Purchase"], a[title~="Purchase"]:visited, a[title~="Purchase"]:hover {
 	background: #ff523f;
 	border: 1px solid #ff523f;
 	border-radius: 3px;
@@ -322,179 +359,246 @@ h3 a, h3 a:visited, h3 a:hover {
 	text-transform: none !important;
 	color: #fff !important;
 	margin-top: 10px;
+} */
+
+
+.header-navbars {
+	background: none;
+	position: absolute;
+	width: 100%;
+	z-index: 1;
 }
 
-.main-menu .navigation a i {
-	font-size: 40px !important;
-	display: block;
-	margin-top: -10px;
+.logo-menu {
+	margin-left: 20px;
+	margin-top: 10px;
 }
 
-.inner-container .main-menu .navigation a i:hover {
-	color: #f8cf00 !important;
+.logo-menu li a img {
+	width: 210px;
 }
 
-.main-menu .navigation a  .fa-facebook {
-	margin-right: 10px !important;
+.purchase-info {
+	position: absolute;
+	right: 25px;
+	top: 32px;
 }
 
-.navigation img {
-	height: 50px;
-	display: block;
-	margin-top: -14px;
+.upper-right-menu {
+	position: absolute;
+	right: 205px;
+	top: 15px;
 }
 
-@media (min-width: 768px) and (max-width: 1443px) {
-	.main-menu .navigation {
-	margin-top: -60px;
-}
+.upper-right-menu li {
+	display: inline-flex;
+	margin: 10px;
 }
 
-@media (min-width: 768px) {
-	.main-menu .navigation a[title~="Purchase"], a[title~="Purchase"]:visited, a[title~="Purchase"]:hover {
+.upper-right-menu li a img {
+	width: 50px;
+	margin-top: -20px;
+}
+
+.upper-right-menu li a i {
+	font-size: 40px;
+	color: #f8cf00;
+}
+
+.upper-right-menu li a i.fa-facebook {
+	margin-left: -8px;
+}
+
+.purchase-info a, .purchase-info a:visited, .purchase-info a:hover {
 	background: #ff523f;
 	border: 1px solid #ff523f;
 	border-radius: 3px;
-	padding: 10px 20px;
+	font-size: 14px;
+	padding: 10px 12px !important;
 	text-transform: none !important;
 	color: #fff !important;
-	margin-top: -80px;
-}
-	.main-menu .navigation a i {
-	font-size: 40px !important;
-	display: block;
-	margin-top: -100px;
 }
 
-.inner-container .main-menu .navigation a i:hover {
+.custom-navigation {
+	margin-left: 15px;
+	margin-top: 10px;
+}
+
+.custom-navigation li {
+	display: inline-flex;
+	margin: 15px;
+}
+
+.custom-navigation li a, .custom-navigation li a:visited {
+	text-transform: uppercase;
+	color: #f8cf00;
+	transition: 0.2s;
+}
+
+.custom-navigation li a:hover {
+	color: #ff523f;
+	transition: 0.2s;
+}
+
+@media (max-width: 868px) {
+	.custom-navigation li {
+		margin: 5px;
+	}
+}
+
+@media (max-width: 717px) {
+	.upper-right-menu {
+		right: 230px;
+	}
+	.upper-right-menu li {
+		margin: 15px 5px;
+	}
+	.upper-right-menu a img {
+		width: 35px !important;
+		margin-top: -12px !important;
+	}
+	.upper-right-menu a i {
+		font-size: 30px !important;
+	}
+	.purchase-info {
+		right: 100px;
+	}
+	.purchase-info a {
+		padding: 10px;
+	}
+	.logo-menu {
+		display: none;
+	}
+}
+
+.center-menu {
+	text-align: center;
+	margin-top: 20px;
+}
+
+@media (max-width: 717px) {
+	.center-menu {
+		margin-top: 100px;
+	}
+}
+
+.center-menu li img {
+	width: 80%;
+	max-width: 500px;
+	min-width: 290px;
+}
+
+.menu-item-223::after {
+	color: #fff;
+	font-size: 22px;
+	content: "\A November 30th- December 2nd 2018";
+  white-space: pre;
+}
+
+@media (max-width: 415px) {
+	.menu-item-223::after {
+	font-size: 15px !important;
+}
+}
+
+.menu-item-224 a, .menu-item-224 a:hover, .menu-item-224 a:visited  {
+	color: #fff;
+	font-size: 25px;
+	background: #ff523f;
+	border-radius: 3px;
+	padding: 15px 25px;
+	width: 200px;
+	display: block;
+	margin: 15px auto;
+}
+
+
+@media (max-width: 350px) {
+	.upper-right-menu {
+		display: none;
+	}
+	.purchase-info {
+		display: none;
+	}
+}
+
+@media (min-width: 800px) {
+	body:before {
+		content: url('https://image.ibb.co/nHZike/stripe.png');
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 1;
+		width: 60px !important;
+		height: 100vh;
+		position: fixed;
+		overflow: hidden;
+	}
+	body {
+		padding-left: 60px;
+	}
+}
+
+.inner-box h1 {
+	font-size: 100px;
 	color: #f8cf00 !important;
+	text-transform: none;
 }
 
-.main-menu .navigation a  .fa-facebook {
-	margin-right: 10px !important;
+@media (max-width: 1440px) {
+	.inner-box h1 {
+	margin-top: 80px;
 }
-
-.navigation img {
-	height: 50px;
-	display: block;
-	margin-top: -105px;
-}
-	}
-
-
-
-
-@media (max-width: 1443px){
-	a[title~="FAQ"] {
-		margin-right: 200px;
-	}
-}
-
-@media (max-width: 1388px){
-	a[title~="FAQ"] {
-		margin-right: 150px;
-	}
-}
-
-@media (max-width: 1338px){
-	a[title~="FAQ"] {
-		margin-right: 100px;
-	}
-}
-
-@media (max-width: 1288px){
-	a[title~="FAQ"] {
-		margin-right: 50px;
-	}
-}
-
-@media (max-width: 1238px){
-	a[title~="FAQ"] {
-		margin-right: 0px;
-	}
-}
-
-@media (max-width: 1188px){
-	.main-menu .navigation li a {
-		font-size: 12px !important;
-	}
-	a[title~="FAQ"] {
-		margin-right: 100px;
-	}
-	.main-menu .navigation a[title~="Purchase"] {
-		padding: 5px 10px;
-	}
 }
 
 
-@media (max-width: 1140px){
-	a[title~="FAQ"] {
-		margin-right: 170px;
-	}
+
+
+@media (max-width: 600px) {
+	.inner-box h1 {
+	font-size: 60px !important;
+	margin-top: 80px;
+	color: #f8cf00 !important;
+	text-transform: none;
+}
 }
 
-@media (max-width: 1095px){
-	a[title~="FAQ"] {
-		margin-right: 120px;
-	}
+@media (max-width: 375px) {
+	.inner-box h1 {
+	font-size: 40px !important;
+	margin-top: 80px;
+	color: #f8cf00 !important;
+	text-transform: none;
+}
 }
 
-@media (max-width: 1045px){
-	a[title~="FAQ"] {
-		margin-right: 70px;
-	}
+@media (max-width: 717px) {
+	button#responsive-menu-button {
+		position: absolute;
+		top: 15px;
+		right: 20px;
+}
 }
 
-@media (max-width: 1023px){
-	.main-menu .navigation {
-		margin-top: -10px;
-		margin-left: 15px
-	}
-	a[title~="FAQ"] {
-		margin-right: 30px;
-	}
+@media screen and (max-width: 717px) {
+	#responsive-menu-container {
+		background-color: #0f4a77 !important;
+}
 }
 
-@media (max-width: 957px){
-	a[title~="FAQ"] {
-		margin-right: 0px;
-	}
+@media screen and (max-width: 717px) {
+	#responsive-menu-container #responsive-menu-additional-content {
+		background-color: #0f4a77 !important;
+}
 }
 
-@media (min-width: 768px) and (max-width: 927px){
-	.main-menu .navigation a img {
-		width: 40px;
-		height: auto;
-	}
-	.main-menu .navigation a .fa-instagram {
-		font-size: 30px !important;
-		margin-left: -20px
-	}
-	.main-menu .navigation a .fa-facebook {
-		font-size: 30px !important;
-		margin-left: -15px
-	}
+.footer h3 {
+	margin-top: 20px;
 }
 
-@media (max-width: 767px) {
-	.main-menu .navigation a img {
-		width: 40px;
-		height: auto;
-		margin-top: 0px;
-	}
-	.main-menu .navigation a .fa-instagram {
-		font-size: 30px !important;
-		margin-top: 0px;
-/* 		margin-left: -20px */
-	}
-	.main-menu .navigation a .fa-facebook {
-		font-size: 30px !important;
-		margin-top: 0px;
-/* 		margin-left: -15px */
-	}
-	.main-menu .navigation li a[title~="Purchase"] {
-		color: #f8cf00 !important;
-		text-transform: uppercase !important;
+@media (max-width: 500px) {
+	.footer h3 {
+		font-size: 14px;
 	}
 }
 
@@ -536,233 +640,26 @@ h3 a, h3 a:visited, h3 a:hover {
 
 
 
-/* timetable styles */
-
-.real.timetable.active {
-    opacity: 1;
-    height: auto;
-}
-
-.real.timetable.active, .real.timetableSmall.active {
-    opacity: 1;
-    height: auto;
-}
-.real.timetable {
-    opacity: 0;
-    height: 0;
-    transition: ease opacity 0.5s, ease height 0s 0.5s;
-    -webkit-transition: ease opacity 0.5s, ease height 0s 0.5s;
-}
-.real.timetable, .real.timetableSmall {
-    opacity: 0;
-    height: 0;
-    transition: ease opacity 0.5s, ease height 0s 0.5s;
-    -webkit-transition: ease opacity 0.5s, ease height 0s 0.5s;
-}
-.timetable {
-    overflow: hidden;
-    color: #fff;
-    font-size: 12px;
-    /* box-shadow: 0px 4px 12px rgba(0,0,0,0.5); */
-}
-
-table.tt_timetable {
-    width: 100%;
-    margin: 0px;
-    border: none;
-    letter-spacing: normal;
-    line-height: normal;
-    border-collapse: separate !important;
-    /* border-spacing: 1px 0px !important; */
-    background: transparent;
-    font-weight: normal;
-}
-table {
-    width: 100%;
-    margin: 1em 0;
-    table-layout: fixed;
-    border-collapse: collapse;
-    /* border-spacing: 0; */
-    border-right: 1px solid #f1f1f1;
-    border-bottom: 1px solid #f1f1f1;
-    word-wrap: break-word;
-    -ms-word-wrap: break-word;
-}
-table {
-    border-collapse: collapse;
-    /* border-spacing: 0; */
-}
-
-table {
-    display: table;
-    border-collapse: separate;
-    /* border-spacing: 2px; */
-    border-color: grey;
-}
-
-.tt_timetable .row_gray {
-    background-color: transparent;
-}
-
-
-@media screen and (max-width: 1200px) {
-.tt_timetable td.tt_hours_column, .tt_timetable th.tt_hours_column {
-    width: 10%;
-}
-}
-
-.tt_timetable td.tt_hours_column, .tt_timetable th.tt_hours_column {
-    width: 10%;
-}
-@media screen and (max-width: 1200px) {
-.tt_timetable th, .tt_timetable td {
-    width: 18%;
-}
-}
-
-.tt_timetable th {
-    padding: 15px 15px 17px;
-    letter-spacing: normal;
-    background: transparent;
-    text-transform: uppercase;
-}
-.tt_timetable th, .tt_timetable td.tt_hours_column {
-    text-align: center;
-    vertical-align: middle;
-}
-.tt_timetable th, .tt_timetable td {
-    font-weight: normal;
-    line-height: normal;
-    color: #ffffff;
-    width: 18%;
-    vertical-align: top !important;
-    text-transform: none;
-    border: none !important;
-}
 
 
 
-@media screen and (max-width: 1200px) {
-.tt_timetable th, .tt_timetable td {
-    width: 18%;
-}
-}
-
-.tt_timetable th {
-    padding: 15px 15px 17px;
-    letter-spacing: normal;
-    background: transparent;
-    text-transform: uppercase;
-}
-.tt_timetable th, .tt_timetable td.tt_hours_column {
-    text-align: center;
-    vertical-align: middle;
-}
-.tt_timetable th, .tt_timetable td {
-    font-weight: normal;
-    line-height: normal;
-    color: #ffffff;
-    width: 18%;
-    vertical-align: top !important;
-    text-transform: none;
-    border: none !important;
-}
-
-
-user agent stylesheet
-tr {
-    display: table-row;
-    vertical-align: inherit;
-    border-color: inherit;
-}
-
-.tt_timetable .row_gray {
-    background-color: transparent;
-}
 
 
 
-@media screen and (max-width: 1200px) {
-.tt_timetable td.tt_hours_column, .tt_timetable th.tt_hours_column {
-    width: 10%;
-}
-}
-
-.tt_timetable td.tt_hours_column {
-    font-weight: normal;
-}
-.tt_timetable th, .tt_timetable td.tt_hours_column {
-    text-align: center;
-    vertical-align: middle;
-}
-.tt_timetable td.tt_hours_column, .tt_timetable th.tt_hours_column {
-    width: 10%;
-}
-@media screen and (max-width: 1200px) {
-.tt_timetable th, .tt_timetable td {
-    width: 18%;
-}
-}
-.tt_timetable td {
-    vertical-align: top;
-    height: 26px;
-    border: none;
-    padding: 0;
-    /* height: 100px; */
-    border-top: 1px #ffffff solid;
-}
-.tt_timetable th, .tt_timetable td {
-    font-weight: normal;
-    line-height: normal;
-    color: #ffffff;
-    width: 18%;
-    vertical-align: top !important;
-
-    text-transform: none;
-    border: none !important;
-}
 
 
 
-/* Mine */
 
 
-table {
-  border-spacing: 8px !important;
-}
 
-.event {
-  outline: 2px solid #fff;
-  transition: 0.2s;
-  text-align: center;
-}
 
-.event-overlay {
-  opacity: 0;
-  transition: 0.2s;
-}
 
-.event-overlay a, .event-overlay a:visited, .event-overlay a:hover {
-  color: #0f4a77;
-  font-family: 'Monda', sans-serif;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 1.3em;
-}
 
-.event:hover {
-  background: #fff;
-  transition: 0.2s;
-}
 
-.event:hover .event-overlay {
-  opacity: 1;
-  transition: 0.2s;
-}
 
-.event:hover .relative {
-  visibility: hidden;
-}
+
+
+
 
 
 
@@ -1681,4 +1578,500 @@ table {
     -webkit-box-ordinal-group: 2;
     order: 1;
   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* timetable styles */
+
+/* tab functionality */
+
+main .right-buttons {
+  float: right;
+}
+
+main .right-buttons a, .right-buttons a:hover, .right-buttons a:visited {
+  text-decoration: none;
+  color: #fff;
+  border: 4px solid #ff523f;
+  border-radius: 3px;
+  display: inline-block;
+  padding: 10px 30px;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  transition: 0.2s;
+  margin: 10px;
+}
+
+main .right-buttons a:hover {
+  background: #ff523f !important;
+  transition: 0.2s;
+}
+
+main {
+  min-width: 290px;
+  max-width: 1400px;
+  padding: 20px;
+  width: 95%;
+  margin: 0 auto;
+  /* background: #fff; */
+}
+
+main section {
+  display: none;
+  /* padding: 20px 0 0; */
+  /* border-top: 1px solid #ddd; */
+}
+
+main label {
+  display: inline-block;
+  margin: 0 0 -1px;
+  padding: 10px 30px;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  border: 1px solid transparent;
+  transition: 0.2s;
+}
+
+main input + label {
+  color: #fff;
+  border: 4px solid #ff523f;
+  border-radius: 3px;
+  margin: 10px;
+}
+
+main input:checked + label {
+  color: #fff;
+  border: 4px solid #ff523f;
+  background: #ff523f;
+  border-radius: 3px;
+}
+
+main input {
+  display: none;
+}
+
+main label:hover {
+  background: #ff523f;
+  transition: 0.2s;
+}
+
+main #tab1:checked ~ #content1,
+main #tab2:checked ~ #content2,
+main #tab3:checked ~ #content3,
+main #tab4:checked ~ #content4 {
+  display: block;
+}
+
+@media screen and (max-width: 710px) {
+  main label:before {
+    margin: 0;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  main label {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  main label {
+    font-size: 12px;
+    padding: 10px;
+  }
+}
+
+
+
+
+
+
+/* Mobile schedule styles */
+
+main .small-schedule ul {
+  list-style-type: none;
+  max-width: 600px;
+  min-width: 250px;
+  width: 80%;
+}
+
+main .small-schedule ul li {
+  border-bottom: 2px solid #fff;
+  padding: 10px 20px;
+}
+
+main .add a, .add a:visited {
+  background: #fff;
+  color: #0f4a77;
+  text-decoration: none;
+  float: right;
+  padding: 8px;
+  border-radius: 3px;
+  margin-top: -40px;
+  transition: 0.2s;
+}
+
+main .add a:hover {
+  color: #fff;
+  background: #ff523f;
+  transition: 0.2s;
+}
+
+@media (max-width: 520px) {
+  main .add a, .add a:hover, .add a:visited {
+    float: none;
+  }
+  main .small-schedule ul li {
+    padding-bottom: 20px;
+  }
+  main .value {
+    margin-bottom: 15px;
+  }
+}
+
+/* hide small schedule for large screens and hide big schedule for small screens */
+
+@media (max-width: 970px) {
+  main .big-schedule {
+    display: none;
+  }
+}
+
+@media (min-width: 971px) {
+  main .small-schedule {
+    display: none;
+  }
+}
+
+main {
+  font-family: 'Monda';
+}
+
+.schedule-container main {
+  background: #0f4a77;
+  color: #fff;
+}
+
+main .real.timetable.active {
+    opacity: 1;
+    height: auto;
+}
+
+main .real.timetable.active, .real.timetableSmall.active {
+    opacity: 1;
+    height: auto;
+}
+main .real.timetable {
+    opacity: 0;
+    height: 0;
+    transition: ease opacity 0.5s, ease height 0s 0.5s;
+    -webkit-transition: ease opacity 0.5s, ease height 0s 0.5s;
+}
+main .real.timetable, .real.timetableSmall {
+    opacity: 0;
+    height: 0;
+    transition: ease opacity 0.5s, ease height 0s 0.5s;
+    -webkit-transition: ease opacity 0.5s, ease height 0s 0.5s;
+}
+main .timetable {
+    overflow: hidden;
+    color: #fff;
+    font-size: 12px;
+    /* box-shadow: 0px 4px 12px rgba(0,0,0,0.5); */
+}
+
+main table.tt_timetable {
+    width: 100%;
+    margin: 0px;
+    border: none;
+    letter-spacing: normal;
+    line-height: normal;
+    border-collapse: separate !important;
+    /* border-spacing: 1px 0px !important; */
+    background: transparent;
+    font-weight: normal;
+}
+main table {
+    width: 100%;
+    margin: 1em 0;
+    table-layout: fixed;
+    border-collapse: collapse;
+    /* border-spacing: 0; */
+    border-right: 1px solid #f1f1f1;
+    border-bottom: 1px solid #f1f1f1;
+    word-wrap: break-word;
+    -ms-word-wrap: break-word;
+}
+main table {
+    border-collapse: collapse;
+    /* border-spacing: 0; */
+}
+
+main table {
+    display: table;
+    border-collapse: separate;
+    /* border-spacing: 2px; */
+    border-color: grey;
+}
+
+main th {
+  font-size: 24px;
+}
+
+main .tt_timetable .row_gray {
+    background-color: transparent;
+}
+
+main .tt_timetable td.tt_hours_column, .tt_timetable th.tt_hours_column {
+    width: 10%;
+}
+
+main .tt_timetable th {
+    padding: 15px 15px 17px;
+    letter-spacing: normal;
+    background: transparent;
+    text-transform: uppercase;
+}
+main .tt_timetable th, .tt_timetable td.tt_hours_column {
+    text-align: center;
+    vertical-align: middle;
+}
+main .tt_timetable th, .tt_timetable td {
+    font-weight: normal;
+    line-height: normal;
+    color: #ffffff;
+    width: 18%;
+    vertical-align: top !important;
+    text-transform: none;
+    border: none !important;
+}
+
+main .tt_timetable th {
+    padding: 15px 15px 17px;
+    letter-spacing: normal;
+    background: transparent;
+    text-transform: uppercase;
+}
+main .tt_timetable th, .tt_timetable td.tt_hours_column {
+    text-align: center;
+    vertical-align: middle;
+}
+main .tt_timetable th, .tt_timetable td {
+    font-weight: normal;
+    line-height: normal;
+    color: #ffffff;
+    width: 18%;
+    vertical-align: top !important;
+    text-transform: none;
+    border: none !important;
+}
+
+
+main tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+main .tt_timetable .row_gray {
+    background-color: transparent;
+}
+
+main .tt_timetable td.tt_hours_column {
+    font-weight: normal;
+}
+main .tt_timetable th, .tt_timetable td.tt_hours_column {
+    text-align: center;
+    vertical-align: middle;
+}
+main .tt_timetable td.tt_hours_column, .tt_timetable th.tt_hours_column {
+    width: 10%;
+}
+
+main .tt_timetable td {
+    /* vertical-align: middle !important; */
+    height: 26px;
+    border: none;
+    padding: 0;
+    /* height: 100px; */
+    border-top: 1px #ffffff solid;
+}
+main .tt_timetable th, .tt_timetable td {
+    font-weight: normal;
+    line-height: normal;
+    color: #ffffff;
+    width: 18%;
+    /* vertical-align: top !important; */
+
+    text-transform: none;
+    border: none !important;
+}
+
+
+/* center table data + add to my timetable overlay text */
+
+/* shows that last a half hour */
+
+main .event[rowspan="2"] .td-inner {
+  margin-top: -35px;
+}
+
+main .event[rowspan="2"] .event-overlay {
+  margin-top: 10px;
+}
+
+/* shows that last forty five minutes */
+
+main .event[rowspan="3"] .td-inner {
+  margin-top: -35px;
+}
+
+main .event[rowspan="3"] .event-overlay {
+  margin-top: 30px;
+}
+
+/* shows that last one hour */
+
+main .event[rowspan="4"] .td-inner {
+  margin-top: -30px;
+}
+
+main .event[rowspan="4"] .event-overlay {
+  margin-top: 40px;
+}
+
+/* shows that last an hour and a half */
+
+main .event[rowspan="6"] .td-inner {
+  margin-top: -30px;
+}
+
+main .event[rowspan="6"] .event-overlay {
+  margin-top: 70px;
+}
+
+/* shows that last two hours */
+
+main .event[rowspan="8"] .td-inner {
+  margin-top: -30px;
+}
+
+main .event[rowspan="8"] .event-overlay {
+  margin-top: 100px;
+}
+
+
+/* Mine */
+
+
+main table {
+  border-spacing: 8px !important;
+}
+
+main .event {
+  outline: 2px solid #fff;
+  transition: 0.2s;
+  text-align: center;
+}
+
+main .event-overlay {
+  opacity: 0;
+  transition: 0.2s;
+}
+
+main .event-overlay a, .event-overlay a:visited, .event-overlay a:hover {
+  color: #0f4a77;
+  font-family: 'Monda', sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.3em;
+}
+
+main .event:hover {
+  background: #fff;
+  transition: 0.2s;
+}
+
+main .event:hover .td-inner {
+  opacity: 0;
+}
+
+main .event:hover .event-overlay {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+main .event:hover .relative {
+  visibility: hidden;
+}
+
+main .small-schedule ul {
+	list-style-type: none !important;
+}
+
+@media (max-width: 1100px) {
+  main label {
+    font-size: 12px;
+  }
+  main .right-buttons a, .right-buttons a:hover, .right-buttons a:visited {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 896px) {
+  main .right-buttons {
+    float: none;
+  }
+}
+
+@media (max-width: 415px) {
+  main .right-buttons a {
+    padding: 10px;
+  }
+}
+
+main .small-schedule .mobile-schedule-list {
+	list-style-type: none !important;
+}
+
+.small-schedule h3 {
+ margin-top: 40px;
+}
+
+@media (max-width: 1072px) {
+	main .event-overlay a {
+		font-size: 12px !important;
+	}
 }
